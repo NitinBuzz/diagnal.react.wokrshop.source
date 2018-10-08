@@ -1,0 +1,50 @@
+{
+  "name": "diagnal.react.workshop",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://nitinbuzz.github.io/diagnal.react.wokrshop",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "",
+    "babel-preset-es2015": "",
+    "babel-preset-react": "",
+    "babel-preset-stage-1": "",
+    "file-loader": "^2.0.0",
+    "lodash": "",
+    "react": "",
+    "react-bootstrap": "^0.32.4",
+    "react-device-detect": "^1.6.1",
+    "react-dom": "",
+    "react-lazy-load": "^3.0.13",
+    "react-redux": "",
+    "react-scripts": "2.0.4",
+    "react-sticky": "^6.0.3",
+    "redux": "",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "^2.3.0",
+    "url-loader": "^1.1.1",
+    "webpack": "4.19.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": ""
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
